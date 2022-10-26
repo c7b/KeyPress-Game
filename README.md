@@ -1,14 +1,14 @@
 # Press Faster Game
 ## _Mostly JavaScript... HTML and CSS project_
 
-Simple single page game where taking advantage of addEventListener('keypress'). Where the player must press the corret key as it show on the screen, where over time it gets dificult.
+Simple single-page game that taking advantage of addEventListener('keypress'). Where the player must press the correct key as it shows on the screen; where over time, it gets difficult.
 
 - From WSL windows terminal -> touch html css and JS -> code .
 - Develop
 - Deploy with Git Version Control in GitHub
 
 
-### Cool Elements from each lenguage
+### Fantastic Elements from each language
 
 JavaScript
 
