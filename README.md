@@ -1,4 +1,4 @@
-# Press Faster Game [Live](https://www.linkedin.com/in/cristobal-a/)
+# Press Faster Game [Live](https://celebrated-rugelach-1daff8.netlify.app/)
 
 ## [Game Hosted and live, click to play](https://celebrated-rugelach-1daff8.netlify.app/) 
 ## _Mostly JavaScript... HTML and CSS project_
