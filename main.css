@@ -1,0 +1,90 @@
+:root {
+    --blue:#3498db;
+    --red: #e74c3c;
+    --green: #2ecc71;
+    --yellow: #f1c40f;
+    --purple: #9b59b6;
+    --white: #ecf0f1;
+    --dark: #34495e;
+}
+*{
+    background-color: var(--white);
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+
+section#box{
+    margin: 50px auto 100px auto;
+    width: 150px;
+    height: 150px;
+    border: 5px solid var(--dark);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;
+    background-color: #79ea79;
+}
+section#box, #letter{
+}
+#letter{
+    background-color:rgb(0, 0, 0,0.0);  
+}
+
+#letter, #score{
+    font-size: 50px;
+}
+
+button, #gameOver_Text{
+    margin-top: 20px;
+}
+.italic {
+  font-style: italic;
+}
+
+.lifes {
+    unicode-bidi: bidi-override;
+    color: #c5c5c5;
+    font-size: 25px;
+    height: 25px;
+    width: 100px;
+    margin: 0 auto;
+    position: relative;
+    
+  } 
+  .lifes::before { 
+    opacity: .0;
+  }
+
+  [data-life="0"]::after {
+    width: 0%;
+  }
+  [data-life="1"]::after {
+    width: 16.0%;
+  }
+  [data-life="2"]::after {
+    width: 35%;
+  }
+  [data-life="3"]::after {
+    width: 50%;
+  }
+  [data-life="4"]::after {
+    width: 68.5%;
+  }
+  [data-life="5"]::after {
+    width: 87.5%;
+  }
+  .lifes::after {
+    color: red;
+    content: '♡♡♡♡♡';
+    position: absolute;
+    z-index: 1;
+    display: block;
+    left: 0;
+    top:0;
+    overflow: hidden;
+  }

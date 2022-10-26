@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Press Game</title>
+    <meta name="author" content="C7B" />
+    <meta name='date' content='Oct. 26, 2020'>
+    <link rel="stylesheet" href="main.css">
+    <link rel='icon' type='image/png' href='letter_c.png'>
+</head>
+<body>
+    <h1>Let's play how fast you can press keys.</h1>
+    <p><b>Instructions:</b> Correct +1 Point; Incorrect: -1 Point; Every +10 points it get's 5% faster; 10 mistakes and the game stops</p>
+    <p>Press 'Enter' to Start and Pause</p>
+    <p class="italic">Design by: @C7B <a href="http://GitHub.com/C7B" target="_blank" rel="noopener noreferrer">GitHub</a>/<a href="https://www.linkedin.com/in/cristobal-a/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+    <section id="box">
+        <p id="letter">Letter</p>
+    </section>
+    <p id="score">Press 'Enter' to start the game</p>
+    
+<div class="lifes" id="lifes" data-life="5"></div>
+<div id="gameOver_Text"></div>
+<button id="restarGameButton" style="display: none;">Restart Game</button>
+    <script src="game.js"></script>
+</body>
+</html>
