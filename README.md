@@ -1,4 +1,6 @@
-# Press Faster Game
+# Press Faster Game [Live](https://www.linkedin.com/in/cristobal-a/)
+
+## [Game Hosted and live, click to play](https://celebrated-rugelach-1daff8.netlify.app/) 
 ## _Mostly JavaScript... HTML and CSS project_
 
 Simple single-page game that taking advantage of addEventListener('keypress'). Where the player must press the correct key as it shows on the screen; where over time, it gets difficult.
