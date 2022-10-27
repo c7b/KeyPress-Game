@@ -32,9 +32,7 @@ Same :root values in CSS and JS
 HTML
 
 ```sh
-CSS Variables
-Data Attribute CSS 
-Same :root values in CSS and JS
+HTML Data Attribute
 ```
 
 ## Development
