@@ -28,6 +28,7 @@ CSS
 CSS Variables
 Data Attribute CSS 
 Same :root values in CSS and JS
+Display warning if played in  Phone/Tablet
 ```
 HTML
 

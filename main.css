@@ -12,6 +12,10 @@
     font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
     text-align: center;
 }
+body{
+  margin: 0;
+  padding: 0;
+}
 
 a{
     color: black;
@@ -88,3 +92,22 @@ button, #gameOver_Text{
     top:0;
     overflow: hidden;
   }
+
+.announcement {
+  overflow: hidden;
+  color: #fff;
+  
+  display: none;
+}
+.announcement-message {
+  overflow: hidden;
+  text-align: center;
+  height: 20px;
+  background-color: var(--red);
+  padding: 10px 0px;
+  font-size: large;
+}
+
+.show{
+  display: block;
+}

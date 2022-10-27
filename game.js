@@ -100,3 +100,11 @@ const restartGame = () => {
     lifes.setAttribute("data-life", lifesLeft);
     runGame();
 }
+
+
+let announcement = document.querySelector('.announcement');
+// Detect if Phone or Tablet to show Announcement Bar
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    announcement.classList.toggle('show');
+}
+
