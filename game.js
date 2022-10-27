@@ -21,6 +21,7 @@ let gameRunning = false;
 let points = 0;
 let lifesLeft = 5;
 let speed = 1000;
+let forNextLevel = 0;
 
 
 
@@ -57,12 +58,14 @@ function runGame(speed = 1000){
     if (e.key.toUpperCase() === currentLetter && gameRunning === true){
         console.log('score');
         points++;
+        forNextLevel++;
         box.style.backgroundColor = green;
-        if(points % 10 === 0 && points !== 0){
+        if(forNextLevel === 10){
             //LevelUp
             clearInterval(loop);
             letter.innerText = "Level 🆙";
             lifesLeft = 5;
+            forNextLevel = 0;
             lifes.setAttribute("data-life", lifesLeft);
             speed -=50;
             runGame(speed);
@@ -86,9 +89,10 @@ restartBtn.onclick = () => restartGame();
 
 const restartGame = () => {
     clearInterval(loop);
-    lifesLeft = 5;
-    points = 0;
     speed = 1000;
+    points = 0;
+    lifesLeft = 5;
+    forNextLevel = 0;
     restartBtn.style.display = 'none';
     belowText.innerText = ""
     score.innerText = "0";
